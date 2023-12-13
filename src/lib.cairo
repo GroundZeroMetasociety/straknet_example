@@ -1,6 +1,7 @@
 use core::traits::TryInto;
 use starknet::ContractAddress;
 
+
 #[starknet::interface]
 trait IData<T> {
     fn get_data(self: @T) -> felt252;
